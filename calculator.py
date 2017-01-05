@@ -25,19 +25,19 @@ while True:
     if token[0] == "q":
         break
     else:
-        if token[0] == "add":
+        if token[0] == "+":
             print add(int(token[1]), int(token[2]))
-        elif token[0] == "subtract":
+        elif token[0] == "-":
             print subtract(int(token[1]), int(token[2]))
-        elif token[0] == "multiply":
+        elif token[0] == "*":
             print multiply(int(token[1]), int(token[2]))
-        elif token[0] == "divide":
+        elif token[0] == "/":
             print divide(int(token[1]), int(token[2]))
         elif token[0] == "square":
             print square(int(token[1]))
         elif token[0] == "cube":
             print cube(int(token[1]))
-        elif token[0] == "power":
+        elif token[0] == "pow":
             print power(int(token[1]), int(token[2]))
         elif token[0] == "mod":
             print mod(int(token[1]), int(token[2]))
